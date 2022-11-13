@@ -11,13 +11,12 @@
     box-sizing: border-box;
 }
 body{
-    line-height: 0.9;
+    line-height: 1.5;
     font-family: var(--Mont);
     color: #fff;
 }
 .menu{
-    margin: 0.5rem 0;
-    padding: auto;
+    margin: 2rem 0;
 }
 .nav__link, .nav__logo, .nav__toggle{
     color: var(--text-color);
@@ -26,7 +25,7 @@ body{
 .menu-container{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
 }
 img{
     width: 100%;
@@ -39,7 +38,7 @@ img{
     text-align: left;
     padding: 0.6rem 0;
     display:flex;
-    margin-left: 100px;
+    margin-left: 200px;
     
 }
 .menu-head h2{
@@ -58,7 +57,7 @@ img{
 .menu-btn{
     font-family: var(--Inter);
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 12px;
     font-weight: 600;
     background: none;
     border: none;
@@ -90,10 +89,10 @@ img{
     color: #fff;
 }
 .food-items{
-    margin: 0.5rem 0;
+    margin: 2rem 0;
 }
 .food-item{
-    border-radius: 0.6px;
+    border-radius: 4px;
     overflow: hidden;
     background: #fff;
     color: #000;
@@ -114,13 +113,12 @@ img{
     border-radius: 4px;
 }
 .food-content{
-    padding: 0.6rem;
+    padding: 1rem;
 }
 .food-name{
     font-family: var(--Inter);
     color: #ff9505;
     font-weight: 500;
-    
     text-transform: capitalize;
 }
 
@@ -139,7 +137,7 @@ img{
     color: #44355b;
 }
 .category{
-    padding-top: 0.6rem;
+    padding-top: 0.2rem;
     font-size: 1rem;
     font-weight: 800;
     font-family: var(--Inter);
